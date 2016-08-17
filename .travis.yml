@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - node
+- node
+deploy:
+  provider: heroku
+  api_key:
+    secure: K7OcFptyqUd06tVdCGzaaBLY1DQd3WmyLrjYWBb+gK6MlbwC8vigGRe2ylfg/myIpJuW2WRcaT4tHbuirVTEVh0UrZvXdzV8o9yoSfrbT1HXxvtF5MQ2pbj5aqTn2AMRNOf1Wa5CJFEkB47v96Vyh9jzfBRdmnobxbsegHW5ARkn8UIMryYqS3r7aNgzwAlnGqZu2aXAABmD8BCpLT3rJuJqIyAQou2czIV9qlomAGqa0QZepx+I+Mdm7ei3zbECMpRiQnsn1+M3hT7QIf2H8/YGyRiQE0UxeaQBNJ7izQPqco96shPK6c3c58uePlJhyMmoRBuF7Ny1h+xuOyI3+direfTH7IV671g7Qku+dmMEN8iSQM4qQJOXxFxcjaYLwgbtLs3x8C58iyP5hkLFTlhyTH0o/EckT4/wdxwvGF1j86hxcXJEwOCZcUl4Q7yeW8+cFf4SxTPuskxLFDb76QExbkzOy8z+DYm4P5ARqoeoWb/rvmRqcSlLlqeCe4cJXCV3g4kO57VUIibhjh2xQBn/0kf6r1eShnW4Cxp55A4HRx2KaMKOicHxbj81ogT0erI3Vi7wSAf81KB64W5VkvVRuz+j2UPf9PxKegWmygMHN5KIiq5BKBbCxhg29k8bEqF12a57+jIz/Bd+walS7WGCVjHQlewdUGNaBoSUYh8=
+  app: ancient-taiga-50617
+  on:
+    repo: meeniebeanie/mymdb

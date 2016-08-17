@@ -17,14 +17,14 @@ module.exports = {
     });
   }
 
-  show: function(req, res, next) {
-   var artist_id = req.params.artist_id;
-   res.send('artist_id is '+ artist_id)
-    // Artist.findOne({
-    //   _id: artist_id
-    // }, function(err, artist) {
-    //   if(err) return next(err);
-    //   res.json(artist)
-    // });
-  }
+  // show: function(req, res, next) {
+  //  var artist_id = req.params.artist_id;
+  //  res.send('artist_id is '+ artist_id)
+  //   // Artist.findOne({
+  //   //   _id: artist_id
+  //   // }, function(err, artist) {
+  //   //   if(err) return next(err);
+  //   //   res.json(artist)
+  //   // });
+  // }
 };

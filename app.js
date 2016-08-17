@@ -47,8 +47,8 @@ app.route('/artists')
    .get(artistsController.index)
    .post(artistsController.create);
 
-app.route('/artists/:artist_id')
-   .get(artistsController.show);
+// app.route('/artists/:artist_id')
+//    .get(artistsController.show);
 
     //  function(req, res, next){
     // var artist_id = req.params.artist_id;
